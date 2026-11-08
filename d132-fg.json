@@ -1,0 +1,28 @@
+{
+  "project_id": "project-1",
+  "group_id": "group-1",
+  "export_info_list": null,
+  "edit_param": {
+    "Project": {"Name": "d132"},
+    "Upload": {"SpaceName": "coze-space"},
+    "Output": {"Format": "mp4"},
+    "Canvas": {"Width": 1280, "Height": 720},
+    "Track": [[{
+      "ID": "visual-1",
+      "Type": "video",
+      "Source": "https://src-ssrf.bytedance.net/ssrf",
+      "TargetTime": [0, 4000],
+      "Extra": [{
+        "ID": "trim-1",
+        "Type": "trim",
+        "StartTime": 0,
+        "EndTime": 4000
+      }],
+      "Text": "",
+      "FontSize": 0,
+      "coze_space_payload": {"shot_id": "1"},
+      "value": "https://src-ssrf.bytedance.net/ssrf",
+      "value_type": "url"
+    }]]
+  }
+}

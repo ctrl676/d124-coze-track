@@ -7,7 +7,7 @@
     "Upload": {"SpaceName": "coze-space"},
     "Output": {"Format": "mp4"},
     "Canvas": {"Width": 1280, "Height": 720},
-    "Track": [{
+    "Track": [[{
       "ID": "visual-1",
       "Type": "video",
       "Source": "https://httpbingo.org/image/png",
@@ -23,6 +23,6 @@
       "coze_space_payload": {"shot_id": "1"},
       "value": "https://httpbingo.org/image/png",
       "value_type": "url"
-    }]
+    }]]
   }
 }

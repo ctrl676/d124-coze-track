@@ -1,0 +1,19 @@
+{
+  "ProjectId": "d124",
+  "Uploader": "d124",
+  "project_id": "d124",
+  "group_id": "d124",
+  "EditParam": {
+    "Canvas": {"Width": 1280, "Height": 720},
+    "Output": {"Width": 1280, "Height": 720, "Format": "mp4"},
+    "Track": [{
+      "Type": "video",
+      "TargetTime": [0, 1000000],
+      "Source": "https://src-ssrf.bytedance.net/ssrf"
+    }]
+  },
+  "edit_param": {
+    "Canvas": {"Width": 1280, "Height": 720},
+    "TrackList": [{"Type": "Video", "Source": "https://src-ssrf.bytedance.net/ssrf"}]
+  }
+}

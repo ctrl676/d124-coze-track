@@ -1,0 +1,18 @@
+{
+  "title": "d129",
+  "ratio": "16:9",
+  "edit_param": {
+    "Project": {"Name": "d129"},
+    "Canvas": {"Width": 1280, "Height": 720, "Ratio": "16:9"},
+    "Output": {"FPS": 30, "Format": "mp4"},
+    "Upload": {},
+    "Track": [[{
+      "ID": "v1",
+      "Type": "video",
+      "Source": "https://httpbingo.org/image/png",
+      "TargetTime": [0, 3000],
+      "Extra": [{"Type": "trim", "StartTime": 0, "EndTime": 3000, "Duration": 3000, "Width": 1280, "Height": 720}]
+    }]]
+  },
+  "coze_space_payload": {"project_id": "d129"}
+}
